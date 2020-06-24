@@ -21,7 +21,7 @@ Route::get('/', function () {
 Auth::routes(['verify' => true]);
 
 Route::post('/cargarPedido', function (Request $request) {
-    dd('RECEPCION DATOS DE PRUEBA DE PEDIDO',$request);
+    // dd('RECEPCION DATOS DE PRUEBA DE PEDIDO',$request);
 })->name('cargarPedido');
 
 
